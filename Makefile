@@ -1,4 +1,4 @@
-PHONY: github aws-sync aws-cache pudding
+PHONY: github data
 
 github:
 	rm -rf docs
