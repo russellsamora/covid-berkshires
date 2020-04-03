@@ -1,14 +1,14 @@
 <style>
   .chart {
-    margin: 1rem auto;
+    margin: 0 auto;
     width: 100%;
     max-width: var(--maxWidth);
     user-select: none;
   }
   figure {
-    padding: 0 1rem;
-    display: block;
+    padding: 0;
     margin: 0;
+    display: block;
     visibility: hidden;
   }
   figure.visible {
@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     user-select: none;
+    margin-bottom: 1.5rem;
   }
   button {
     margin: 0 0.25em;
@@ -100,7 +101,7 @@
 
 <div class="chart" class:visible>
 
-  <h3 class="center">Cumulative COVID-19 cases in Massachusetts</h3>
+  <h3 class="center">Cumulative COVID-19 cases in Mass.</h3>
   <div class="choose">
     <button class:active="{classA}" on:click="{change}" data-a="cases">
       Cases
@@ -124,7 +125,7 @@
             ticks="{[xDomain[0], xDomain[xDomain.length - 1]]}"
             formatTick="{formatTickX}" />
           <AxisY
-            tickNumber="{4}"
+            tickNumber="{3}"
             formatTick="{formatTickY}"
             suffix="{` ${setting} per 1,000 residents`}" />
           <Line {toggle} />

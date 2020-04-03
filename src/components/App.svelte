@@ -1,13 +1,3 @@
-<style>
-  /* vars defined in public/assets/global.css */
-  h1 {
-    font-size: 1.25em;
-  }
-  p {
-    margin: 0.5rem 0;
-  }
-</style>
-
 <script>
   import { LayerCake, Svg, flatten, calcExtents, uniques } from "layercake";
   import { min, range, sum, ascending } from "d3-array";

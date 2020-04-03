@@ -3,9 +3,12 @@
     width: 100%;
     max-width: calc(var(--maxWidth) - 3rem);
     margin: 0 auto;
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
     justify-content: space-between;
+  }
+  p {
+    margin: 0;
   }
 </style>
 
