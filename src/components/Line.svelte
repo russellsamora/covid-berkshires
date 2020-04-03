@@ -1,12 +1,11 @@
 <style>
   path {
     stroke: #666;
-    stroke-width: 2px;
+    stroke-width: 3px;
     fill: none;
   }
   .Berkshire {
     stroke: var(--highlight);
-    stroke-width: 3px;
   }
 </style>
 
