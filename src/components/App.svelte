@@ -14,9 +14,9 @@
   import { nest } from "d3-collection";
   import { format } from "d3-format";
   import { scaleBand } from "d3-scale";
-  import ByCounty from "./ByCounty.svelte";
   import BerkshireVsMa from "./BerkshireVsMa.svelte";
-  import MaDeath from "./MaDeath.svelte";
+  // import ByCounty from "./ByCounty.svelte";
+  // import MaDeath from "./MaDeath.svelte";
   import population from "../data/population-ma.csv";
   import maData from "../data/ma.csv";
 
@@ -152,9 +152,9 @@
 
 <BerkshireVsMa data="{[otherData, berkshireData]}" {xScale} {formatTickX} />
 
-<ByCounty data="{countyData}" {xScale} {xDomain} {formatTickX} />
+<!-- <ByCounty data="{countyData}" {xScale} {xDomain} {formatTickX} />
 
-<MaDeath data="{stateData.value}" {xScale} {xDomain} {formatTickX} />
+<MaDeath data="{stateData.value}" {xScale} {xDomain} {formatTickX} /> -->
 
 <p class="center">
   Data source:
