@@ -5,9 +5,11 @@
     font-style: normal;
     font-weight: 400;
     src: local("Open Sans Regular"), local("OpenSans-Regular"),
-      url("./assets/open-sans-v17-latin-regular.woff2") format("woff2"),
+      url("..covid-berkshires/assets/open-sans-v17-latin-regular.woff2")
+        format("woff2"),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url("./assets/open-sans-v17-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url("..covid-berkshires/assets/open-sans-v17-latin-regular.woff")
+        format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* open-sans-600 - latin */
   @font-face {
@@ -15,9 +17,11 @@
     font-style: normal;
     font-weight: 600;
     src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
-      url("./assets/open-sans-v17-latin-600.woff2") format("woff2"),
+      url("..covid-berkshires/assets/open-sans-v17-latin-600.woff2")
+        format("woff2"),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url("./assets/open-sans-v17-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url("..covid-berkshires/assets/open-sans-v17-latin-600.woff")
+        format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 </style>
 
