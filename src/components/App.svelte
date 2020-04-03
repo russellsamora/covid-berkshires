@@ -17,6 +17,7 @@
   import BerkshireVsMa from "./BerkshireVsMa.svelte";
   // import ByCounty from "./ByCounty.svelte";
   // import MaDeath from "./MaDeath.svelte";
+  import Credit from "./Credit.svelte";
   import population from "../data/population-ma.csv";
   import maData from "../data/ma.csv";
 
@@ -156,15 +157,4 @@
 
 <MaDeath data="{stateData.value}" {xScale} {xDomain} {formatTickX} /> -->
 
-<p class="center">
-  Data source:
-  <a
-    target="_blank"
-    href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html">
-    New York Times
-  </a>
-</p>
-<p class="center">
-  By
-  <a target="_blank" href="https://twitter.com/codenberg">Russell Goldenberg</a>
-</p>
+<Credit />
