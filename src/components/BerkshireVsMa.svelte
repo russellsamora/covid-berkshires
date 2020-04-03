@@ -64,7 +64,6 @@
     { field: "y", accessor: d => d[toggle] }
   ];
 
-  // $: chartH = Math.max(120, Math.floor(chartW / RATIO));
   $: chartH = 160;
   $: visible = !!chartW;
   $: yDomain = [0, extents.y[1]];
@@ -78,6 +77,7 @@
   function formatTickY(d) {
     return format(`.0${toggle === "deathsCapita" ? "2" : "1"}f`)(d);
   }
+
   function change() {
     if (this.classList[0] !== "active") {
       const { a } = this.dataset;

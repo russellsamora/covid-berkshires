@@ -1,3 +1,7 @@
+<style global src="../../static/assets/global.css">
+
+</style>
+
 <script>
   import { LayerCake, Svg, flatten, calcExtents, uniques } from "layercake";
   import { min, range, sum, ascending } from "d3-array";
