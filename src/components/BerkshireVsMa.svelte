@@ -69,9 +69,6 @@
   $: visible = !!chartW;
   $: yDomain = [0, extents.y[1]];
   $: xDomain = extents.x;
-  $: {
-    console.log(xDomain);
-  }
 
   $: chartData = data.map(d => ({
     ...d,
