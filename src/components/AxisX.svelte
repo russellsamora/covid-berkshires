@@ -27,7 +27,6 @@
   export let formatTick = d => d;
   export let ticks = undefined;
   export let tickNumber = undefined;
-  export let bar = false;
 
   $: tickVals = ticks || $xScale.ticks(tickNumber);
 </script>
@@ -37,10 +36,7 @@
     <g
       class="tick tick-{tick}"
       transform="translate({$xScale(tick)},{$yScale.range()[0] + 16})">
-      <text
-        y="0"
-        x="{i === 0 ? 0 : bar ? $xScale.bandwidth() : 0}"
-        text-anchor="{i === 0 ? 'start' : 'end'}">
+      <text y="0" x="{0}" text-anchor="{i === 0 ? 'start' : 'end'}">
         {formatTick(tick)}
       </text>
     </g>

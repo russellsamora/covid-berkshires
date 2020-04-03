@@ -43,7 +43,6 @@
   import { format } from "d3-format";
 
   export let data;
-  export let xScale;
   export let formatTickX;
 
   const PAD = 8;
@@ -55,14 +54,13 @@
   let visible;
   let setting = "deaths";
   let classA = false;
-  let xDomain;
 
   $: toggle = `${setting}Capita`;
-  $: flatData = flatten(data.map(d => d.value));
+  $: flatData = flatten(data.map(d => d.value)).filter(d => d.dateF >= START);
   $: extents = calcExtents(flatData, fields);
 
   $: fields = [
-    { field: "x", accessor: d => d.index },
+    { field: "x", accessor: d => d.dateF },
     { field: "y", accessor: d => d[toggle] }
   ];
 
@@ -70,13 +68,9 @@
   $: chartH = 160;
   $: visible = !!chartW;
   $: yDomain = [0, extents.y[1]];
-
+  $: xDomain = extents.x;
   $: {
-    const u = uniques(flatData.map(d => d.date))
-      .map(d => new Date(d))
-      .filter(d => d >= START);
-    u.sort(ascending);
-    xDomain = u;
+    console.log(xDomain);
   }
 
   $: chartData = data.map(d => ({
@@ -114,7 +108,6 @@
   <figure class:visible style="height: {chartH}px;" bind:clientWidth="{chartW}">
     {#if visible}
       <LayerCake
-        {xScale}
         {xDomain}
         {yDomain}
         {padding}

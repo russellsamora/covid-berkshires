@@ -27,8 +27,6 @@
     "Dec"
   ];
 
-  let xDomain;
-
   $: cleanData = maData ? clean(maData) : [];
   $: countyData = byCounty(cleanData);
   $: flatData = flatten(countyData.map(d => d.value));
@@ -40,11 +38,6 @@
   };
 
   $: xScale = scaleBand().padding(0.1);
-  $: {
-    const u = uniques(flatData.map(d => d.date)).map(d => new Date(d));
-    u.sort(ascending);
-    xDomain = u;
-  }
 
   function formatTickX(d) {
     return `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}`;

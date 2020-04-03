@@ -15,10 +15,7 @@
   const { data, xGet, yGet, xScale, width, height } = getContext("LayerCake");
 
   export let toggle;
-  $: {
-    // console.log($data[0].value[0]);
-    // console.log($xGet($data[0].value[0]));
-  }
+
   $: path = line()
     .x($xGet)
     .y($yGet)
