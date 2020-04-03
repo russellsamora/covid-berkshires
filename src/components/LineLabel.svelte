@@ -5,7 +5,7 @@
     font-size: 12px;
     margin: 0;
     background: #fff;
-    padding: 0;
+    padding: 2px;
     line-height: 1;
     color: var(--black);
     font-weight: bold;
