@@ -1,0 +1,562 @@
+[
+  {
+    "state": "AK",
+    "positive": 9,
+    "negative": 504,
+    "pending": null,
+    "death": null,
+    "total": 513,
+    "lastUpdateEt": "3/19 16:30",
+    "checkTimeEt": "3/20 11:29"
+  },
+  {
+    "state": "AL",
+    "positive": 81,
+    "negative": 28,
+    "pending": null,
+    "death": 0,
+    "total": 109,
+    "lastUpdateEt": "3/20 11:00",
+    "checkTimeEt": "3/20 12:19"
+  },
+  {
+    "state": "AR",
+    "positive": 62,
+    "negative": 351,
+    "pending": 146,
+    "death": null,
+    "total": 559,
+    "lastUpdateEt": "3/19 15:31",
+    "checkTimeEt": "3/20 13:39"
+  },
+  {
+    "state": "AS",
+    "positive": 0,
+    "negative": null,
+    "pending": null,
+    "death": 0,
+    "total": 0,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 11:40"
+  },
+  {
+    "state": "AZ",
+    "positive": 65,
+    "negative": 211,
+    "pending": 101,
+    "death": 0,
+    "total": 377,
+    "lastUpdateEt": "3/20 00:00",
+    "checkTimeEt": "3/20 13:41"
+  },
+  {
+    "state": "CA",
+    "positive": 1057,
+    "negative": 8787,
+    "pending": null,
+    "death": 20,
+    "total": 9844,
+    "lastUpdateEt": "3/20 01:25",
+    "checkTimeEt": "3/20 13:45"
+  },
+  {
+    "state": "CO",
+    "positive": 277,
+    "negative": 2675,
+    "pending": null,
+    "death": 2,
+    "total": 2952,
+    "lastUpdateEt": "3/19 18:00",
+    "checkTimeEt": "3/20 12:10"
+  },
+  {
+    "state": "CT",
+    "positive": 159,
+    "negative": 604,
+    "pending": null,
+    "death": 3,
+    "total": 763,
+    "lastUpdateEt": "3/19 17:00",
+    "checkTimeEt": "3/20 12:16"
+  },
+  {
+    "state": "DC",
+    "positive": 71,
+    "negative": 501,
+    "pending": 1,
+    "death": 0,
+    "total": 573,
+    "lastUpdateEt": "3/19 20:00",
+    "checkTimeEt": "3/20 12:47"
+  },
+  {
+    "state": "DE",
+    "positive": 38,
+    "negative": 36,
+    "pending": null,
+    "death": 0,
+    "total": 74,
+    "lastUpdateEt": "3/20 10:00",
+    "checkTimeEt": "3/20 12:39"
+  },
+  {
+    "state": "FL",
+    "positive": 520,
+    "negative": 1870,
+    "pending": 1026,
+    "death": 10,
+    "total": 3416,
+    "lastUpdateEt": "3/20 11:00",
+    "checkTimeEt": "3/20 12:35"
+  },
+  {
+    "state": "GA",
+    "positive": 420,
+    "negative": 1966,
+    "pending": null,
+    "death": 13,
+    "total": 2386,
+    "lastUpdateEt": "3/20 12:00",
+    "checkTimeEt": "3/20 12:40"
+  },
+  {
+    "state": "GU",
+    "positive": 14,
+    "negative": 86,
+    "pending": null,
+    "death": null,
+    "total": 100,
+    "lastUpdateEt": "3/20 05:15",
+    "checkTimeEt": "3/20 12:45"
+  },
+  {
+    "state": "HI",
+    "positive": 26,
+    "negative": 124,
+    "pending": 9,
+    "death": null,
+    "total": 159,
+    "lastUpdateEt": "3/19 18:00",
+    "checkTimeEt": "3/20 12:39"
+  },
+  {
+    "state": "IA",
+    "positive": 44,
+    "negative": 642,
+    "pending": null,
+    "death": null,
+    "total": 686,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 12:56"
+  },
+  {
+    "state": "ID",
+    "positive": 23,
+    "negative": 590,
+    "pending": null,
+    "death": null,
+    "total": 613,
+    "lastUpdateEt": "3/19 19:00",
+    "checkTimeEt": "3/20 13:04"
+  },
+  {
+    "state": "IL",
+    "positive": 426,
+    "negative": 2725,
+    "pending": null,
+    "death": 4,
+    "total": 3151,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 13:04"
+  },
+  {
+    "state": "IN",
+    "positive": 79,
+    "negative": 475,
+    "pending": null,
+    "death": 2,
+    "total": 554,
+    "lastUpdateEt": "3/20 00:59",
+    "checkTimeEt": "3/20 13:16"
+  },
+  {
+    "state": "KS",
+    "positive": 34,
+    "negative": 417,
+    "pending": null,
+    "death": 1,
+    "total": 451,
+    "lastUpdateEt": "3/19 11:00",
+    "checkTimeEt": "3/20 13:15"
+  },
+  {
+    "state": "KY",
+    "positive": 40,
+    "negative": 599,
+    "pending": null,
+    "death": 1,
+    "total": 639,
+    "lastUpdateEt": "3/19 17:00",
+    "checkTimeEt": "3/20 02:12"
+  },
+  {
+    "state": "LA",
+    "positive": 479,
+    "negative": 568,
+    "pending": null,
+    "death": 10,
+    "total": 1047,
+    "lastUpdateEt": "3/20 10:30",
+    "checkTimeEt": "3/20 13:26"
+  },
+  {
+    "state": "MA",
+    "positive": 328,
+    "negative": 2804,
+    "pending": null,
+    "death": null,
+    "total": 3132,
+    "lastUpdateEt": "3/19 11:30",
+    "checkTimeEt": "3/20 11:55"
+  },
+  {
+    "state": "MD",
+    "positive": 149,
+    "negative": 94,
+    "pending": null,
+    "death": 1,
+    "total": 243,
+    "lastUpdateEt": "3/20 10:00",
+    "checkTimeEt": "3/20 12:49"
+  },
+  {
+    "state": "ME",
+    "positive": 57,
+    "negative": 2264,
+    "pending": null,
+    "death": null,
+    "total": 2321,
+    "lastUpdateEt": "3/20 11:00",
+    "checkTimeEt": "3/20 13:08"
+  },
+  {
+    "state": "MI",
+    "positive": 334,
+    "negative": 2115,
+    "pending": null,
+    "death": 3,
+    "total": 2449,
+    "lastUpdateEt": "3/19 15:00",
+    "checkTimeEt": "3/20 13:02"
+  },
+  {
+    "state": "MN",
+    "positive": 115,
+    "negative": 3741,
+    "pending": null,
+    "death": null,
+    "total": 3856,
+    "lastUpdateEt": "3/20 00:00",
+    "checkTimeEt": "3/20 12:56"
+  },
+  {
+    "state": "MO",
+    "positive": 47,
+    "negative": 369,
+    "pending": null,
+    "death": 1,
+    "total": 416,
+    "lastUpdateEt": "3/20 10:05",
+    "checkTimeEt": "3/20 12:42"
+  },
+  {
+    "state": "MP",
+    "positive": 0,
+    "negative": null,
+    "pending": null,
+    "death": 0,
+    "total": 0,
+    "lastUpdateEt": "3/20 01:30",
+    "checkTimeEt": "3/20 12:31"
+  },
+  {
+    "state": "MS",
+    "positive": 80,
+    "negative": 695,
+    "pending": null,
+    "death": 1,
+    "total": 775,
+    "lastUpdateEt": "3/20 11:35",
+    "checkTimeEt": "3/20 12:40"
+  },
+  {
+    "state": "MT",
+    "positive": 16,
+    "negative": 931,
+    "pending": null,
+    "death": null,
+    "total": 947,
+    "lastUpdateEt": "3/19 22:11",
+    "checkTimeEt": "3/20 13:05"
+  },
+  {
+    "state": "NC",
+    "positive": 137,
+    "negative": 3096,
+    "pending": null,
+    "death": 0,
+    "total": 3233,
+    "lastUpdateEt": "3/20 09:35",
+    "checkTimeEt": "3/20 13:07"
+  },
+  {
+    "state": "ND",
+    "positive": 20,
+    "negative": 800,
+    "pending": null,
+    "death": 0,
+    "total": 820,
+    "lastUpdateEt": "3/20 00:00",
+    "checkTimeEt": "3/20 13:11"
+  },
+  {
+    "state": "NE",
+    "positive": 32,
+    "negative": 240,
+    "pending": null,
+    "death": 0,
+    "total": 272,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 12:57"
+  },
+  {
+    "state": "NH",
+    "positive": 44,
+    "negative": 745,
+    "pending": 631,
+    "death": null,
+    "total": 1420,
+    "lastUpdateEt": "3/19 09:00",
+    "checkTimeEt": "3/20 12:59"
+  },
+  {
+    "state": "NJ",
+    "positive": 742,
+    "negative": 210,
+    "pending": 74,
+    "death": 9,
+    "total": 1026,
+    "lastUpdateEt": "3/19 12:00",
+    "checkTimeEt": "3/20 13:07"
+  },
+  {
+    "state": "NM",
+    "positive": 35,
+    "negative": 2762,
+    "pending": null,
+    "death": null,
+    "total": 2797,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 13:05"
+  },
+  {
+    "state": "NV",
+    "positive": 109,
+    "negative": 1992,
+    "pending": -3,
+    "death": 1,
+    "total": 2098,
+    "lastUpdateEt": "3/19 02:59",
+    "checkTimeEt": "3/20 13:45"
+  },
+  {
+    "state": "NY",
+    "positive": 7102,
+    "negative": 25325,
+    "pending": null,
+    "death": 35,
+    "total": 32427,
+    "lastUpdateEt": "3/20 13:20",
+    "checkTimeEt": "3/20 13:40"
+  },
+  {
+    "state": "OH",
+    "positive": 119,
+    "negative": 140,
+    "pending": null,
+    "death": null,
+    "total": 259,
+    "lastUpdateEt": "3/19 14:00",
+    "checkTimeEt": "3/20 13:32"
+  },
+  {
+    "state": "OK",
+    "positive": 49,
+    "negative": 538,
+    "pending": 374,
+    "death": 1,
+    "total": 961,
+    "lastUpdateEt": "3/20 08:00",
+    "checkTimeEt": "3/20 13:38"
+  },
+  {
+    "state": "OR",
+    "positive": 88,
+    "negative": 1329,
+    "pending": 437,
+    "death": 3,
+    "total": 1854,
+    "lastUpdateEt": "3/19 11:00",
+    "checkTimeEt": "3/20 13:35"
+  },
+  {
+    "state": "PA",
+    "positive": 268,
+    "negative": 2574,
+    "pending": null,
+    "death": 1,
+    "total": 2842,
+    "lastUpdateEt": "3/20 12:00",
+    "checkTimeEt": "3/20 13:41"
+  },
+  {
+    "state": "PR",
+    "positive": 8,
+    "negative": 107,
+    "pending": 49,
+    "death": null,
+    "total": 164,
+    "lastUpdateEt": "3/20 07:00",
+    "checkTimeEt": "3/20 13:34"
+  },
+  {
+    "state": "RI",
+    "positive": 44,
+    "negative": 654,
+    "pending": 140,
+    "death": null,
+    "total": 838,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 13:34"
+  },
+  {
+    "state": "SC",
+    "positive": 81,
+    "negative": 833,
+    "pending": null,
+    "death": 1,
+    "total": 914,
+    "lastUpdateEt": "3/19 17:10",
+    "checkTimeEt": "3/20 13:30"
+  },
+  {
+    "state": "SD",
+    "positive": 14,
+    "negative": 663,
+    "pending": 270,
+    "death": 1,
+    "total": 947,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 13:32"
+  },
+  {
+    "state": "TN",
+    "positive": 154,
+    "negative": 464,
+    "pending": null,
+    "death": null,
+    "total": 618,
+    "lastUpdateEt": "3/19 15:00",
+    "checkTimeEt": "3/20 13:32"
+  },
+  {
+    "state": "TX",
+    "positive": 194,
+    "negative": 5083,
+    "pending": null,
+    "death": 5,
+    "total": 5277,
+    "lastUpdateEt": "3/20 13:00",
+    "checkTimeEt": "3/20 13:34"
+  },
+  {
+    "state": "UT",
+    "positive": 78,
+    "negative": 1448,
+    "pending": null,
+    "death": 0,
+    "total": 1526,
+    "lastUpdateEt": "3/19 00:00",
+    "checkTimeEt": "3/20 12:17"
+  },
+  {
+    "state": "VA",
+    "positive": 114,
+    "negative": 2211,
+    "pending": null,
+    "death": 2,
+    "total": 2325,
+    "lastUpdateEt": "3/20 00:00",
+    "checkTimeEt": "3/20 12:32"
+  },
+  {
+    "state": "VI",
+    "positive": 3,
+    "negative": null,
+    "pending": null,
+    "death": 0,
+    "total": 3,
+    "lastUpdateEt": "3/19 17:30",
+    "checkTimeEt": "3/20 11:59"
+  },
+  {
+    "state": "VT",
+    "positive": 22,
+    "negative": 667,
+    "pending": null,
+    "death": null,
+    "total": 689,
+    "lastUpdateEt": "3/19 14:00",
+    "checkTimeEt": "3/20 11:55"
+  },
+  {
+    "state": "WA",
+    "positive": 1376,
+    "negative": 19336,
+    "pending": null,
+    "death": 74,
+    "total": 20712,
+    "lastUpdateEt": "3/19 18:00",
+    "checkTimeEt": "3/20 11:50"
+  },
+  {
+    "state": "WI",
+    "positive": 155,
+    "negative": 2192,
+    "pending": null,
+    "death": 2,
+    "total": 2347,
+    "lastUpdateEt": "3/19 16:00",
+    "checkTimeEt": "3/20 11:46"
+  },
+  {
+    "state": "WV",
+    "positive": 7,
+    "negative": 219,
+    "pending": 13,
+    "death": 0,
+    "total": 239,
+    "lastUpdateEt": "3/20 00:00",
+    "checkTimeEt": "3/20 13:49"
+  },
+  {
+    "state": "WY",
+    "positive": 19,
+    "negative": 350,
+    "pending": null,
+    "death": null,
+    "total": 369,
+    "lastUpdateEt": "3/20 13:00",
+    "checkTimeEt": "3/20 13:48"
+  }
+]
