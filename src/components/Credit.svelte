@@ -17,8 +17,8 @@
     Data:
     <a
       target="_blank"
-      href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html">
-      New York Times
+      href="https://www.mass.gov/info-details/archive-of-covid-19-cases-in-massachusetts">
+      Mass. DPH
     </a>
   </p>
   <p class="center">
