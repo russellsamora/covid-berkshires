@@ -37,6 +37,7 @@ body {
   padding: 0;
 }
 h3 {
+  margin-top: 0;
   font-size: 1em;
   text-align: center;
   color: var(--black);

@@ -1,7 +1,7 @@
 <style>
   footer {
     width: 100%;
-    max-width: calc(var(--maxWidth) - 3rem);
+    max-width: var(--maxWidth);
     margin: 0 auto;
     font-size: 11px;
     display: flex;
@@ -14,7 +14,7 @@
 
 <footer>
   <p class="center">
-    Data source:
+    Data:
     <a
       target="_blank"
       href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html">
