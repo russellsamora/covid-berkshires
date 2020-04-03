@@ -93,7 +93,7 @@
 
 <div class="chart" class:visible>
 
-  <h3 class="center">Cumulative COVID-19 cases in Mass.</h3>
+  <h3 class="center">Cumulative COVID-19 cases in Mass</h3>
   <div class="choose">
     <button class:active="{classA}" on:click="{change}" data-a="cases">
       Cases
