@@ -1,5 +1,74 @@
-<style global src="../../static/assets/global.css">
+<style global>
+  :root {
+    --gray: #666;
+    --grayLight: #ccc;
+    --black: #2a2a2a;
+    --white: #fff;
+    --red: #a80a1f;
+    --highlight: #a80a1f;
+    --highlightText: #a80a1f;
+    --maxWidth: 685px;
+  }
 
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans Regular"), local("OpenSans-Regular"),
+      url("assets/open-sans-v17-latin-regular.woff2") format("woff2"),
+      url("assets/open-sans-v17-latin-regular.woff") format("woff");
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
+      url("assets/open-sans-v17-latin-600.woff2") format("woff2"),
+      url("assets/open-sans-v17-latin-600.woff") format("woff");
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+  h3 {
+    margin-top: 0;
+    font-size: 1em;
+    text-align: center;
+    color: var(--black);
+  }
+  .center {
+    text-align: center;
+  }
+
+  button {
+    background-color: var(--white);
+    color: var(--gray);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    padding: 0.5em;
+    line-height: 1;
+    cursor: pointer;
+    border: 1px solid var(--grayLight);
+    display: inline-block;
+  }
+  button:hover {
+    background-color: var(--grayLight);
+  }
+  button.active {
+    background-color: var(--black);
+    color: var(--white);
+  }
+  button.active:hover {
+    background-color: var(--black);
+    color: var(--white);
+  }
 </style>
 
 <script>
@@ -9,8 +78,6 @@
   import { format } from "d3-format";
   import { scaleBand } from "d3-scale";
   import BerkshireVsMa from "./BerkshireVsMa.svelte";
-  // import ByCounty from "./ByCounty.svelte";
-  // import MaDeath from "./MaDeath.svelte";
   import Credit from "./Credit.svelte";
   import population from "../data/population-ma.csv";
   import maData from "../data/ma.csv";
