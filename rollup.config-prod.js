@@ -26,19 +26,12 @@ export default {
   },
   plugins: [
     svelte({
-      // we'll extract any component CSS out into
-      // a separate file - better for performance
       css: css => {
         css.write("public/build/bundle.css");
       },
       preprocess
     }),
 
-    // If you have external dependencies installed from
-    // npm, you'll most likely need these plugins. In
-    // some cases you'll need additional configuration -
-    // consult the documentation for details:
-    // https://github.com/rollup/plugins/tree/master/packages/commonjs
     resolve({
       browser: true,
       dedupe: ["svelte"]
@@ -47,8 +40,6 @@ export default {
     json(),
     dsv(),
     svg(),
-    // If we're building for production (npm run build
-    // instead of npm run dev), minify
     production && terser()
   ]
 };
