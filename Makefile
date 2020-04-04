@@ -8,6 +8,4 @@ github:
 	git push
 
 data: 
-	curl -o temp.csv "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv";
-	csvgrep -c "state" -r  "Massachusetts" temp.csv | csvgrep -c "county" -r "Unknown" -i | csvcut -c "date,county,cases,deaths" > src/data/ma-nyt.csv;
-	rm temp.csv
+	curl -o src/data/ma.csv "https://raw.githubusercontent.com/russellgoldenberg/covid-data-ma/master/covid-ma--dph.csv"
