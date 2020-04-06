@@ -49,7 +49,7 @@
   const RATIO = 3;
   const START = new Date("2020-03-07");
 
-  let padding = { top: PAD, right: 0, bottom: PAD * 3, left: 0 };
+  let padding = { top: PAD * 2, right: 0, bottom: PAD * 3, left: 0 };
   let chartW;
   let visible;
   let setting = "deaths";
