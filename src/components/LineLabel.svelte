@@ -18,6 +18,17 @@
     transform: translate(0, -125%);
     color: var(--highlightText);
   }
+  .circle {
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: var(--gray);
+    border-radius: 50%;
+    transform: translate(0, -50%);
+  }
+  .circle.Berkshire {
+    background-color: var(--highlightText);
+  }
 </style>
 
 <script>
@@ -39,4 +50,8 @@
     style="top:{top(d.value)}px;right:{right(d.value)}px;">
     {d.key.includes('Mass') ? d.key : `${d.key} County`}
   </p>
+  <div
+    class="circle {d.key}
+    {toggle}"
+    style="top:{top(d.value)}px;right:{right(d.value)}px;"></div>
 {/each}

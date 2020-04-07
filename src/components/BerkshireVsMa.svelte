@@ -75,7 +75,7 @@
   }));
 
   function formatTickY(d) {
-    return format(`.0${toggle === "deathsCapita" ? "2" : "1"}f`)(d);
+    return format(`.0${toggle === "deathsCapita" ? "0" : "0"}f`)(d);
   }
 
   function change() {
@@ -118,7 +118,7 @@
           <AxisY
             tickNumber="{3}"
             formatTick="{formatTickY}"
-            suffix="{` ${setting} per 1,000 residents`}" />
+            suffix="{` ${setting} per 100,000 residents`}" />
           <Line {toggle} />
         </Svg>
         <Html>

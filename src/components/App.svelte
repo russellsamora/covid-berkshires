@@ -9,7 +9,7 @@
   import population from "../data/population-ma.csv";
   import maData from "../data/ma.csv";
 
-  const CAPITA = 1000;
+  const CAPITA = 100000;
   const MS_IN_DAY = 86400000;
   const MONTHS = [
     "Jan",
