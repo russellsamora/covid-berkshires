@@ -1,23 +1,29 @@
 <style>
   p {
     position: absolute;
-    transform: translate(0, -125%);
+    transform: translate(0, 125%);
     font-size: 12px;
     margin: 0;
     background: #fff;
-    padding: 2px;
+    padding: 2px 0;
     line-height: 1;
     color: var(--black);
     font-weight: bold;
     text-align: center;
   }
+  p.casesCapita {
+    transform: translate(0, 375%);
+  }
   p.Berkshire {
+    transform: translate(0, -125%);
     color: var(--highlightText);
   }
 </style>
 
 <script>
   import { getContext } from "svelte";
+
+  export let toggle;
 
   const { data, x, width, xGet, yGet } = getContext("LayerCake");
 
@@ -27,7 +33,10 @@
 </script>
 
 {#each $data as d (d.key)}
-  <p class="{d.key}" style="top:{top(d.value)}px;right:{right(d.value)}px;">
+  <p
+    class="{d.key}
+    {toggle}"
+    style="top:{top(d.value)}px;right:{right(d.value)}px;">
     {d.key.includes('Mass') ? d.key : `${d.key} County`}
   </p>
 {/each}

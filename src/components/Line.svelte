@@ -11,7 +11,7 @@
 
 <script>
   import { getContext } from "svelte";
-  import { line, curveMonotoneX } from "d3-shape";
+  import { line, curveStep } from "d3-shape";
   const { data, xGet, yGet, xScale, width, height } = getContext("LayerCake");
 
   export let toggle;
@@ -19,7 +19,7 @@
   $: path = line()
     .x($xGet)
     .y($yGet)
-    .curve(curveMonotoneX);
+    .curve(curveStep);
 </script>
 
 {#each $data as d (d.key)}

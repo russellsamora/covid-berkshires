@@ -79,7 +79,7 @@
   }
 
   function change() {
-    if (this.classList[0] !== "active") {
+    if (this.classList[1] !== "active") {
       const { a } = this.dataset;
 
       if (typeof a !== "undefined") {
@@ -95,11 +95,11 @@
 
   <h3 class="center">Cumulative COVID-19 cases in Mass.</h3>
   <div class="choose">
-    <button class:active="{classA}" on:click="{change}" data-a="cases">
-      Cases
-    </button>
     <button class:active="{!classA}" on:click="{change}" data-a="deaths">
       Deaths
+    </button>
+    <button class:active="{classA}" on:click="{change}" data-a="cases">
+      Cases
     </button>
   </div>
   <figure class:visible style="height: {chartH}px;" bind:clientWidth="{chartW}">
@@ -122,7 +122,7 @@
           <Line {toggle} />
         </Svg>
         <Html>
-          <LineLabel />
+          <LineLabel {toggle} />
         </Html>
       </LayerCake>
     {/if}

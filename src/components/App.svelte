@@ -9,6 +9,7 @@
   import population from "../data/population-ma.csv";
   import maData from "../data/ma.csv";
 
+  const CAPITA = 1000;
   const MS_IN_DAY = 86400000;
   const MONTHS = [
     "Jan",
@@ -43,7 +44,7 @@
 
   function perCapita(v, d) {
     const m = population.find(p => p.county === d.county);
-    if (m) return (+d[v] / +m.population) * 1000;
+    if (m) return (+d[v] / +m.population) * CAPITA;
     return null;
   }
 
@@ -88,10 +89,10 @@
         const deaths = sum(values, v => v.deaths);
         const casesNew = sum(values, v => v.casesNew);
         const deathsNew = sum(values, v => v.deathsNew);
-        const casesCapita = (cases / pop) * 1000;
-        const deathsCapita = (deaths / pop) * 1000;
-        const casesNewCapita = (casesNew / pop) * 1000;
-        const deathsNewCapita = (deathsNew / pop) * 1000;
+        const casesCapita = (cases / pop) * CAPITA;
+        const deathsCapita = (deaths / pop) * CAPITA;
+        const casesNewCapita = (casesNew / pop) * CAPITA;
+        const deathsNewCapita = (deathsNew / pop) * CAPITA;
         return {
           date: values[0].date,
           dayIndex: values[0].dayIndex,
