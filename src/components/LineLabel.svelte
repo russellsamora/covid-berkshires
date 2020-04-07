@@ -20,11 +20,11 @@
   }
   .circle {
     position: absolute;
-    width: 0.5em;
-    height: 0.5em;
+    width: 8px;
+    height: 8px;
     background-color: var(--gray);
     border-radius: 50%;
-    transform: translate(0, -50%);
+    transform: translate(4px, -50%);
   }
   .circle.Berkshire {
     background-color: var(--highlightText);
