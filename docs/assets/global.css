@@ -27,6 +27,11 @@
     url("open-sans-v17-latin-600.woff") format("woff");
 }
 
+a,
+a:visited {
+  color: var(--red);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
