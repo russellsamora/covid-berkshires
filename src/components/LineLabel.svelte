@@ -12,11 +12,14 @@
     text-align: center;
   }
   p.casesCapita {
-    transform: translate(0, 375%);
+    transform: translate(0, -125%);
   }
   p.Berkshire {
     transform: translate(0, -125%);
     color: var(--highlightText);
+  }
+  p.casesCapita.Berkshire {
+    transform: translate(0, 375%);
   }
   .circle {
     position: absolute;
