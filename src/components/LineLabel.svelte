@@ -1,7 +1,7 @@
 <style>
   p {
     position: absolute;
-    transform: translate(0, 150%);
+    transform: translate(0, -125%);
     font-size: 12px;
     margin: 0;
     background: #fff;
@@ -15,11 +15,11 @@
     transform: translate(0, -125%);
   }
   p.Berkshire {
-    transform: translate(0, -135%);
+    transform: translate(0, 200%);
     color: var(--highlightText);
   }
   p.casesCapita.Berkshire {
-    transform: translate(0, 300%);
+    transform: translate(0, 200%);
   }
   .circle {
     position: absolute;
