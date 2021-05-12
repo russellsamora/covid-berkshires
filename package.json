@@ -29,7 +29,7 @@
     "layercake": "^2.0.1",
     "node-sass": "^4.13.1",
     "polka": "next",
-    "postcss": "^7.0.27",
+    "postcss": "^8.2.10",
     "prettier": "^1.19.1",
     "prettier-plugin-svelte": "^0.7.0",
     "replace-in-file": "^5.0.2",
